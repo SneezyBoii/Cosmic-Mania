@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class fire : MonoBehaviour
 {
-
     public GameObject projectile; 
-    public GameObject bulletPrefab; 
+    public GameObject bulletPrefab;
     public float shootInterval = 3f; 
     private float timeSinceLastShot = 0f; 
 
